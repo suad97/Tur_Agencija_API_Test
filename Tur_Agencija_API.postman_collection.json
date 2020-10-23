@@ -1,0 +1,728 @@
+{
+	"info": {
+		"_postman_id": "9cd4f14b-dbf4-451d-8334-303816370812",
+		"name": "Tur_Agencija_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Korisnici",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/korisnici",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/korisnici",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"korisnici"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/korisnici/2124",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/korisnici/2124",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"korisnici",
+								"2124"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/korisnici",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Ime\": \"John\",\r\n    \"Jmbg\": \"0601997191270\",\r\n    \"Prezime\": \"Smith\",\r\n    \"DatumRodjenja\": \"06.25.2000.\",\r\n    \"Spol\": \"M\",\r\n    \"Adresa\": \"Porice bb\",\r\n    \"KorisnickoIme\": \"john00\",\r\n    \"DatumKreiranja\": \"18.10.2020\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/korisnici",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"korisnici"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/korisnici/2124",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ime\": \"riki\",\r\n    \"prezime\": \"sabanovic\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/korisnici/2124",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"korisnici",
+								"2124"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Gradovi",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/gradovi",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/gradovi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"gradovi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/gradovi/1071",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/gradovi/1071",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"gradovi",
+								"1071"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/gradovi",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Naziv\": \"Bugojno\",\r\n    \"RegijaId\": 8\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/gradovi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"gradovi"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Regije",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/regije",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/regije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"regije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/regije/11",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/regije/11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"regije",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/regije",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Naziv\": \"Srednja Bosna\",\r\n    \"DrzavaId\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/regije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"regije"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "KontaktPodaci",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/kontaktPodaci",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/kontaktPodaci",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"kontaktPodaci"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/kontaktPodaci/2126",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/kontaktPodaci/2126",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"kontaktPodaci",
+								"2126"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/kontaktPodaci",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"telefon\": \"030256512\",\r\n    \"email\": \"kuca@unmo.ba\",\r\n    \"korisnikId\": 2124\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/kontaktPodaci",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"kontaktPodaci"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Putovanja",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/putovanja/23",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"opis\": \"naljepsi grad na svijetu\",\r\n    \"gradId\": 69\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/putovanja/23",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"putovanja",
+								"23"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/putovanja/",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"gradId\": 62,\r\n    \"prevoznoSredstvoId\": null,\r\n        \"ponudaId\": null,\r\n        \"datumPolaska\": \"2019-05-30T20:21:32\",\r\n        \"datumPovratka\": \"2019-06-06T20:21:32\",\r\n        \"opis\": \"postanite svjetski covjek\",\r\n        \"cijena\": 529.00,\r\n        \"popust\": 0.00,\r\n        \"aktivno\": true,\r\n        \"datumIzmjene\": \"2019-06-27T15:44:32.577\",\r\n        \"datumKreiranja\": \"2019-06-27T15:44:32.577\",\r\n        \"grad\": \"Bracelona\"\r\n        \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/putovanja/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"putovanja",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Ponude",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/ponude",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/ponude",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"ponude"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/ponude/1014",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/ponude/1014",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"ponude",
+								"1014"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/ponude",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nazivPonude\": \"Ljeto 2020\",\r\n        \"datumPocetka\": \"2020-06-26T23:24:07.897\",\r\n        \"datumZavrsetka\": \"2020-09-18T23:24:07\",\r\n        \"isAktivna\": true,\r\n        \"datumIzmjene\": \"2019-06-26T23:24:27.443\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/ponude",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"ponude"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/ponude/1015",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nazivPonude\": \"Zima 2021\",\r\n        \"datumPocetka\": \"2021-01-26T23:24:07.897\",\r\n        \"datumZavrsetka\": \"2021-02-18T23:24:07\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/ponude/1015",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"ponude",
+								"1015"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Recenzije",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/recenzije",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/recenzije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"recenzije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/recenzije/1050",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/recenzije/1050",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"recenzije",
+								"1050"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/recenzije",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"rezervacijaId\": 1081,\r\n        \"komentar\": \"odlicno\",\r\n        \"ocjena\": 5,\r\n        \"datumKomentara\": \"2020-06-27T18:14:06.167\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/recenzije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"recenzije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/recenzije/1051",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"rezervacijaId\": 1085,\r\n        \"komentar\": \"bara\",\r\n        \"ocjena\": \"1\",\r\n        \"datumKomentara\": \"2020-07-27T18:15:05.587\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/recenzije/1051",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"recenzije",
+								"1051"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Rezervacije",
+			"item": [
+				{
+					"name": "http://localhost:59019/api/rezervacije",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/rezervacije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"rezervacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/rezervacije/1085",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:59019/api/rezervacije/1085",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"rezervacije",
+								"1085"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/rezervacije",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"putovanjeId\": 23,\r\n        \"ukupanIznos\": 600.0,\r\n        \"datumRezervacije\": \"2020-11-27T18:17:15.767\",\r\n        \"statusRezervacijeId\": 1,\r\n        \"smjestajId\": null,\r\n        \"korisnikId\": 2128\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/rezervacije",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"rezervacije"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:59019/api/rezervacije/1081",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"putovanjeId\": 23,\r\n        \"ukupanIznos\": 450.0,\r\n        \"datumRezervacije\": \"2020-07-27T18:13:37.39\",\r\n        \"statusRezervacijeId\": 1,\r\n        \"smjestajId\": null,\r\n        \"korisnikId\": 2126\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:59019/api/rezervacije/1081",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "59019",
+							"path": [
+								"api",
+								"rezervacije",
+								"1081"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
